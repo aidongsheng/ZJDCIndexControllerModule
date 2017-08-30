@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZJDCIndexControllerModule_Example' do
+  pod 'ZJDCIndexControllerModule', :path => '../'
+
+  target 'ZJDCIndexControllerModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
