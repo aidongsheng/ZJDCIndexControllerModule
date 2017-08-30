@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ZJDCIndexControllerModule
 
 [![CI Status](http://img.shields.io/travis/aidongsheng/ZJDCIndexControllerModule.svg?style=flat)](https://travis-ci.org/aidongsheng/ZJDCIndexControllerModule)
@@ -27,3 +28,6 @@ aidongsheng, coding_ai@qq.com
 ## License
 
 ZJDCIndexControllerModule is available under the MIT license. See the LICENSE file for more info.
+=======
+# ZJDCIndexControllerModule
+>>>>>>> 4f7b15ccaf32cba9577290b1d5fece5736b2860c

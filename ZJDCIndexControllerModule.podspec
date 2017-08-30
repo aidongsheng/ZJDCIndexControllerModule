@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ZJDCIndexControllerModule'
-s.version          = '0.0.1'
+s.version          = '0.0.2'
 s.summary          = '51车生活项目首页'
 
 s.description      = <<-DESC
@@ -16,5 +16,5 @@ s.ios.deployment_target = '8.0'
 
 s.source_files = 'ZJDCIndexControllerModule/Classes/**/*.{h,m}'
 
-s.dependency 'adsCoreKit', '~> 0.0.1'
+s.dependency 'adsCoreKit'
 end
