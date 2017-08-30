@@ -1,0 +1,16 @@
+PODS:
+  - ZJDCIndexControllerModule (0.1.0)
+
+DEPENDENCIES:
+  - ZJDCIndexControllerModule (from `../`)
+
+EXTERNAL SOURCES:
+  ZJDCIndexControllerModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZJDCIndexControllerModule: 3c2fb6b06b6d15137d657afad32160c9afa9d6dd
+
+PODFILE CHECKSUM: 6c93347b37762a1e3f8d495fc38cdbdeb1744481
+
+COCOAPODS: 1.2.1

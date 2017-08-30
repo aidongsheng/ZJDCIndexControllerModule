@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372371D74112BCF357E778B664BA6599 /* ZJDCIndexControllerModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA476D5D9D88520AC8E00D241156DCD9 /* ZJDCIndexControllerModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		415D5A62839634AA46E1A9DE8716C9DD /* Pods-ZJDCIndexControllerModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AE097EBABF05DFC56812209D0E0A382 /* Pods-ZJDCIndexControllerModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E79F1E6B0CA9967078AA34B4AC0C444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		84794FC24F19447839ADC706A32C882D /* ZJDCIndexControllerModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49EB29A24FC04D6F931BDC38EC800A1 /* ZJDCIndexControllerModule-dummy.m */; };
+		939EB58E20D202A42CB3FF48518AEC59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9F91A5B8E9C10685D46CA73FB129850F /* Pods-ZJDCIndexControllerModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F88E34909C0BC5916BDB96F7BD5D32 /* Pods-ZJDCIndexControllerModule_Example-dummy.m */; };
+		D50D9C3BF5A58EE43E778A5133280740 /* Pods-ZJDCIndexControllerModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BAABF0A771D78D801FEB0776D94CED0 /* Pods-ZJDCIndexControllerModule_Tests-dummy.m */; };
+		D78BA9531F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9321F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.h */; };
+		D78BA9541F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9331F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.m */; };
+		D78BA9551F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9341F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.h */; };
+		D78BA9561F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9351F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.m */; };
+		D78BA9571F57113800E0C44F /* ZJDCIndexDiscountModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9361F57113800E0C44F /* ZJDCIndexDiscountModel.h */; };
+		D78BA9581F57113800E0C44F /* ZJDCIndexDiscountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9371F57113800E0C44F /* ZJDCIndexDiscountModel.m */; };
+		D78BA9591F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9381F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.h */; };
+		D78BA95A1F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9391F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.m */; };
+		D78BA95B1F57113800E0C44F /* ZJDCIndexHeadMenuModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA93A1F57113800E0C44F /* ZJDCIndexHeadMenuModel.h */; };
+		D78BA95C1F57113800E0C44F /* ZJDCIndexHeadMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA93B1F57113800E0C44F /* ZJDCIndexHeadMenuModel.m */; };
+		D78BA95D1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA93C1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.h */; };
+		D78BA95E1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA93D1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.m */; };
+		D78BA95F1F57113800E0C44F /* ZJDCIndexRescueModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA93E1F57113800E0C44F /* ZJDCIndexRescueModel.h */; };
+		D78BA9601F57113800E0C44F /* ZJDCIndexRescueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA93F1F57113800E0C44F /* ZJDCIndexRescueModel.m */; };
+		D78BA9611F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9411F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.h */; };
+		D78BA9621F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9421F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.m */; };
+		D78BA9631F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9431F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.h */; };
+		D78BA9641F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9441F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.m */; };
+		D78BA9651F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9451F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.h */; };
+		D78BA9661F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9461F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.m */; };
+		D78BA9671F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9471F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.h */; };
+		D78BA9681F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9481F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.m */; };
+		D78BA9691F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9491F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.h */; };
+		D78BA96A1F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA94A1F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.m */; };
+		D78BA96B1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA94B1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.h */; };
+		D78BA96C1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA94C1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.m */; };
+		D78BA96D1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA94D1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.h */; };
+		D78BA96E1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA94E1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.m */; };
+		D78BA96F1F57113800E0C44F /* ZJDCIndexTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA94F1F57113800E0C44F /* ZJDCIndexTableView.h */; };
+		D78BA9701F57113800E0C44F /* ZJDCIndexTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9501F57113800E0C44F /* ZJDCIndexTableView.m */; };
+		D78BA9711F57113800E0C44F /* ZJDCIndexViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D78BA9511F57113800E0C44F /* ZJDCIndexViewController.h */; };
+		D78BA9721F57113800E0C44F /* ZJDCIndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BA9521F57113800E0C44F /* ZJDCIndexViewController.m */; };
+		F2FE5BFA3184FEABC001A7119E8A21E3 /* Pods-ZJDCIndexControllerModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4228DF2BCA0D3C210C5E3C406D346508 /* Pods-ZJDCIndexControllerModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F495046AC9F73D31C007A46D71720367 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7041414134E1B1F26A317BE17AA98C31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EBF70792CB46BEE9D4C5B3A03624FA;
+			remoteInfo = ZJDCIndexControllerModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F92516599B0C4ACBA6E087D25A41B3E /* Pods-ZJDCIndexControllerModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJDCIndexControllerModule_Tests.modulemap"; sourceTree = "<group>"; };
+		13361A4AAEF81D36B0C229FB4882EF91 /* Pods-ZJDCIndexControllerModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJDCIndexControllerModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		3BAACFE16B154C1EBCFC446D0BB1FBC1 /* Pods-ZJDCIndexControllerModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJDCIndexControllerModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4228DF2BCA0D3C210C5E3C406D346508 /* Pods-ZJDCIndexControllerModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJDCIndexControllerModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4AA4A74A0DDD4998958EF646456213D2 /* Pods_ZJDCIndexControllerModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJDCIndexControllerModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E71269DE406AB3675BB31120A71A632 /* ZJDCIndexControllerModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZJDCIndexControllerModule.xcconfig; sourceTree = "<group>"; };
+		523A36653AD906A118EC60C15D86CBF2 /* Pods-ZJDCIndexControllerModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJDCIndexControllerModule_Example-resources.sh"; sourceTree = "<group>"; };
+		5BAABF0A771D78D801FEB0776D94CED0 /* Pods-ZJDCIndexControllerModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJDCIndexControllerModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		5CCAB727E40AE4DF7C0CEA9FAC470C80 /* Pods-ZJDCIndexControllerModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZJDCIndexControllerModule_Example.modulemap"; sourceTree = "<group>"; };
+		5E2F20CEF9E085417720259932DB992B /* Pods-ZJDCIndexControllerModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJDCIndexControllerModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		601B0984BE125AB99888F752F8340DC0 /* Pods_ZJDCIndexControllerModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJDCIndexControllerModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		639B0E2D6B9E16D1C38DBA9AD837C7AC /* Pods-ZJDCIndexControllerModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJDCIndexControllerModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E9FC511F47B3707CC0C00E6E6632933 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77185BCF8ACCA788D0DDF4FBDFDD2968 /* Pods-ZJDCIndexControllerModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJDCIndexControllerModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80A653B26D850A73E01D235E165B6274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82EA1B2C47A0C78E3114130A11A07119 /* ZJDCIndexControllerModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZJDCIndexControllerModule.modulemap; sourceTree = "<group>"; };
+		86B9FEFCA52B996882ADED1A9CB43E0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88B0302AC9DA26CB79CBABE320D0DF2D /* ZJDCIndexControllerModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJDCIndexControllerModule-prefix.pch"; sourceTree = "<group>"; };
+		8AE097EBABF05DFC56812209D0E0A382 /* Pods-ZJDCIndexControllerModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJDCIndexControllerModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E12B232C46A24116B7B1BA0B16979AC /* Pods-ZJDCIndexControllerModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJDCIndexControllerModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9E1C2A0C2775A278BC72733ACFBF1A05 /* Pods-ZJDCIndexControllerModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZJDCIndexControllerModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5F88E34909C0BC5916BDB96F7BD5D32 /* Pods-ZJDCIndexControllerModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZJDCIndexControllerModule_Example-dummy.m"; sourceTree = "<group>"; };
+		A90DAB27D8D67D4A5E2CC454A6DE5766 /* Pods-ZJDCIndexControllerModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJDCIndexControllerModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B49EB29A24FC04D6F931BDC38EC800A1 /* ZJDCIndexControllerModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZJDCIndexControllerModule-dummy.m"; sourceTree = "<group>"; };
+		BAE478C868AC21E03BF3D4C939F08896 /* Pods-ZJDCIndexControllerModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZJDCIndexControllerModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D78BA9321F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexAppreciationLotteryModel.h; sourceTree = "<group>"; };
+		D78BA9331F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexAppreciationLotteryModel.m; sourceTree = "<group>"; };
+		D78BA9341F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexAutoInsuranceModel.h; sourceTree = "<group>"; };
+		D78BA9351F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexAutoInsuranceModel.m; sourceTree = "<group>"; };
+		D78BA9361F57113800E0C44F /* ZJDCIndexDiscountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexDiscountModel.h; sourceTree = "<group>"; };
+		D78BA9371F57113800E0C44F /* ZJDCIndexDiscountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexDiscountModel.m; sourceTree = "<group>"; };
+		D78BA9381F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexExtendedWarrantyModel.h; sourceTree = "<group>"; };
+		D78BA9391F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexExtendedWarrantyModel.m; sourceTree = "<group>"; };
+		D78BA93A1F57113800E0C44F /* ZJDCIndexHeadMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexHeadMenuModel.h; sourceTree = "<group>"; };
+		D78BA93B1F57113800E0C44F /* ZJDCIndexHeadMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexHeadMenuModel.m; sourceTree = "<group>"; };
+		D78BA93C1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexMemberBenefitsModel.h; sourceTree = "<group>"; };
+		D78BA93D1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexMemberBenefitsModel.m; sourceTree = "<group>"; };
+		D78BA93E1F57113800E0C44F /* ZJDCIndexRescueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexRescueModel.h; sourceTree = "<group>"; };
+		D78BA93F1F57113800E0C44F /* ZJDCIndexRescueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexRescueModel.m; sourceTree = "<group>"; };
+		D78BA9411F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexAppreciationLotteryTableViewCell.h; sourceTree = "<group>"; };
+		D78BA9421F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexAppreciationLotteryTableViewCell.m; sourceTree = "<group>"; };
+		D78BA9431F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexAutoInsuranceTableViewCell.h; sourceTree = "<group>"; };
+		D78BA9441F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexAutoInsuranceTableViewCell.m; sourceTree = "<group>"; };
+		D78BA9451F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexDiscountTableViewCell.h; sourceTree = "<group>"; };
+		D78BA9461F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexDiscountTableViewCell.m; sourceTree = "<group>"; };
+		D78BA9471F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexExtendedWarrantyTableViewCell.h; sourceTree = "<group>"; };
+		D78BA9481F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexExtendedWarrantyTableViewCell.m; sourceTree = "<group>"; };
+		D78BA9491F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexHeadMenuTableViewCell.h; sourceTree = "<group>"; };
+		D78BA94A1F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexHeadMenuTableViewCell.m; sourceTree = "<group>"; };
+		D78BA94B1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexMemberBenefitsTableViewCell.h; sourceTree = "<group>"; };
+		D78BA94C1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexMemberBenefitsTableViewCell.m; sourceTree = "<group>"; };
+		D78BA94D1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexRescueTableViewCell.h; sourceTree = "<group>"; };
+		D78BA94E1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexRescueTableViewCell.m; sourceTree = "<group>"; };
+		D78BA94F1F57113800E0C44F /* ZJDCIndexTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexTableView.h; sourceTree = "<group>"; };
+		D78BA9501F57113800E0C44F /* ZJDCIndexTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexTableView.m; sourceTree = "<group>"; };
+		D78BA9511F57113800E0C44F /* ZJDCIndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJDCIndexViewController.h; sourceTree = "<group>"; };
+		D78BA9521F57113800E0C44F /* ZJDCIndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJDCIndexViewController.m; sourceTree = "<group>"; };
+		DD9796EB1CED6155E15D4BD3C097BEE9 /* Pods-ZJDCIndexControllerModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZJDCIndexControllerModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E35661C2FE976E85A8412CCD3C147EF8 /* Pods-ZJDCIndexControllerModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJDCIndexControllerModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA476D5D9D88520AC8E00D241156DCD9 /* ZJDCIndexControllerModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZJDCIndexControllerModule-umbrella.h"; sourceTree = "<group>"; };
+		FF7F65F955B51137823C501F2B4D6DBB /* ZJDCIndexControllerModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZJDCIndexControllerModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D93ADA84CDB64B8C1B3D94364F7B72F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E79F1E6B0CA9967078AA34B4AC0C444 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		517C74D3CD6E5B5B479BC5ADE83C2EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F495046AC9F73D31C007A46D71720367 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB9654863D364963D4937C1B75B0FDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939EB58E20D202A42CB3FF48518AEC59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CC7A5DC7EBBB3A760788249094E7D31 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9A09A434518BB09A5F157B31A66CB /* ZJDCIndexControllerModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		501EF18CC13A922EA30BE92C0CECBD6E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BFEF4069C4BA4878E99F746E1695AD9 /* Pods-ZJDCIndexControllerModule_Example */,
+				D118B254704BE34E2D94DDCED159AE12 /* Pods-ZJDCIndexControllerModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6DA9A09A434518BB09A5F157B31A66CB /* ZJDCIndexControllerModule */ = {
+			isa = PBXGroup;
+			children = (
+				FFD97A4B4A79EA46856B14D641F73FEE /* Support Files */,
+				7CFBEAE48958151806911CE0C467E3CD /* ZJDCIndexControllerModule */,
+			);
+			name = ZJDCIndexControllerModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7CFBEAE48958151806911CE0C467E3CD /* ZJDCIndexControllerModule */ = {
+			isa = PBXGroup;
+			children = (
+				848108C9A0554A8EFC15D650D0CD4A80 /* Classes */,
+			);
+			path = ZJDCIndexControllerModule;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4CC7A5DC7EBBB3A760788249094E7D31 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BF4300ABF262041A49B8D9D1FAE09419 /* Products */,
+				501EF18CC13A922EA30BE92C0CECBD6E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848108C9A0554A8EFC15D650D0CD4A80 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D78BA9311F57113800E0C44F /* model */,
+				D78BA9401F57113800E0C44F /* view */,
+				D78BA9511F57113800E0C44F /* ZJDCIndexViewController.h */,
+				D78BA9521F57113800E0C44F /* ZJDCIndexViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9BFEF4069C4BA4878E99F746E1695AD9 /* Pods-ZJDCIndexControllerModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				86B9FEFCA52B996882ADED1A9CB43E0A /* Info.plist */,
+				5CCAB727E40AE4DF7C0CEA9FAC470C80 /* Pods-ZJDCIndexControllerModule_Example.modulemap */,
+				DD9796EB1CED6155E15D4BD3C097BEE9 /* Pods-ZJDCIndexControllerModule_Example-acknowledgements.markdown */,
+				E35661C2FE976E85A8412CCD3C147EF8 /* Pods-ZJDCIndexControllerModule_Example-acknowledgements.plist */,
+				A5F88E34909C0BC5916BDB96F7BD5D32 /* Pods-ZJDCIndexControllerModule_Example-dummy.m */,
+				5E2F20CEF9E085417720259932DB992B /* Pods-ZJDCIndexControllerModule_Example-frameworks.sh */,
+				523A36653AD906A118EC60C15D86CBF2 /* Pods-ZJDCIndexControllerModule_Example-resources.sh */,
+				8AE097EBABF05DFC56812209D0E0A382 /* Pods-ZJDCIndexControllerModule_Example-umbrella.h */,
+				639B0E2D6B9E16D1C38DBA9AD837C7AC /* Pods-ZJDCIndexControllerModule_Example.debug.xcconfig */,
+				9E12B232C46A24116B7B1BA0B16979AC /* Pods-ZJDCIndexControllerModule_Example.release.xcconfig */,
+			);
+			name = "Pods-ZJDCIndexControllerModule_Example";
+			path = "Target Support Files/Pods-ZJDCIndexControllerModule_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4300ABF262041A49B8D9D1FAE09419 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601B0984BE125AB99888F752F8340DC0 /* Pods_ZJDCIndexControllerModule_Example.framework */,
+				4AA4A74A0DDD4998958EF646456213D2 /* Pods_ZJDCIndexControllerModule_Tests.framework */,
+				FF7F65F955B51137823C501F2B4D6DBB /* ZJDCIndexControllerModule.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D118B254704BE34E2D94DDCED159AE12 /* Pods-ZJDCIndexControllerModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				80A653B26D850A73E01D235E165B6274 /* Info.plist */,
+				0F92516599B0C4ACBA6E087D25A41B3E /* Pods-ZJDCIndexControllerModule_Tests.modulemap */,
+				A90DAB27D8D67D4A5E2CC454A6DE5766 /* Pods-ZJDCIndexControllerModule_Tests-acknowledgements.markdown */,
+				77185BCF8ACCA788D0DDF4FBDFDD2968 /* Pods-ZJDCIndexControllerModule_Tests-acknowledgements.plist */,
+				5BAABF0A771D78D801FEB0776D94CED0 /* Pods-ZJDCIndexControllerModule_Tests-dummy.m */,
+				BAE478C868AC21E03BF3D4C939F08896 /* Pods-ZJDCIndexControllerModule_Tests-frameworks.sh */,
+				13361A4AAEF81D36B0C229FB4882EF91 /* Pods-ZJDCIndexControllerModule_Tests-resources.sh */,
+				4228DF2BCA0D3C210C5E3C406D346508 /* Pods-ZJDCIndexControllerModule_Tests-umbrella.h */,
+				9E1C2A0C2775A278BC72733ACFBF1A05 /* Pods-ZJDCIndexControllerModule_Tests.debug.xcconfig */,
+				3BAACFE16B154C1EBCFC446D0BB1FBC1 /* Pods-ZJDCIndexControllerModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZJDCIndexControllerModule_Tests";
+			path = "Target Support Files/Pods-ZJDCIndexControllerModule_Tests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D78BA9311F57113800E0C44F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D78BA9321F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.h */,
+				D78BA9331F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.m */,
+				D78BA9341F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.h */,
+				D78BA9351F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.m */,
+				D78BA9361F57113800E0C44F /* ZJDCIndexDiscountModel.h */,
+				D78BA9371F57113800E0C44F /* ZJDCIndexDiscountModel.m */,
+				D78BA9381F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.h */,
+				D78BA9391F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.m */,
+				D78BA93A1F57113800E0C44F /* ZJDCIndexHeadMenuModel.h */,
+				D78BA93B1F57113800E0C44F /* ZJDCIndexHeadMenuModel.m */,
+				D78BA93C1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.h */,
+				D78BA93D1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.m */,
+				D78BA93E1F57113800E0C44F /* ZJDCIndexRescueModel.h */,
+				D78BA93F1F57113800E0C44F /* ZJDCIndexRescueModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		D78BA9401F57113800E0C44F /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D78BA9411F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.h */,
+				D78BA9421F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.m */,
+				D78BA9431F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.h */,
+				D78BA9441F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.m */,
+				D78BA9451F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.h */,
+				D78BA9461F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.m */,
+				D78BA9471F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.h */,
+				D78BA9481F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.m */,
+				D78BA9491F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.h */,
+				D78BA94A1F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.m */,
+				D78BA94B1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.h */,
+				D78BA94C1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.m */,
+				D78BA94D1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.h */,
+				D78BA94E1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.m */,
+				D78BA94F1F57113800E0C44F /* ZJDCIndexTableView.h */,
+				D78BA9501F57113800E0C44F /* ZJDCIndexTableView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FFD97A4B4A79EA46856B14D641F73FEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E9FC511F47B3707CC0C00E6E6632933 /* Info.plist */,
+				82EA1B2C47A0C78E3114130A11A07119 /* ZJDCIndexControllerModule.modulemap */,
+				4E71269DE406AB3675BB31120A71A632 /* ZJDCIndexControllerModule.xcconfig */,
+				B49EB29A24FC04D6F931BDC38EC800A1 /* ZJDCIndexControllerModule-dummy.m */,
+				88B0302AC9DA26CB79CBABE320D0DF2D /* ZJDCIndexControllerModule-prefix.pch */,
+				EA476D5D9D88520AC8E00D241156DCD9 /* ZJDCIndexControllerModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZJDCIndexControllerModule";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BD4E0FC8AC763193FEBDB1A12B50D7D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372371D74112BCF357E778B664BA6599 /* ZJDCIndexControllerModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8964A1B496C611A3EFFC3A1E9187280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2FE5BFA3184FEABC001A7119E8A21E3 /* Pods-ZJDCIndexControllerModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E2709C45313AA0C53721EF895B2A41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78BA96F1F57113800E0C44F /* ZJDCIndexTableView.h in Headers */,
+				D78BA9591F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.h in Headers */,
+				D78BA9551F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.h in Headers */,
+				D78BA9611F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.h in Headers */,
+				D78BA9651F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.h in Headers */,
+				D78BA96D1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.h in Headers */,
+				415D5A62839634AA46E1A9DE8716C9DD /* Pods-ZJDCIndexControllerModule_Example-umbrella.h in Headers */,
+				D78BA9531F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.h in Headers */,
+				D78BA96B1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.h in Headers */,
+				D78BA95D1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.h in Headers */,
+				D78BA9631F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.h in Headers */,
+				D78BA9691F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.h in Headers */,
+				D78BA9571F57113800E0C44F /* ZJDCIndexDiscountModel.h in Headers */,
+				D78BA9711F57113800E0C44F /* ZJDCIndexViewController.h in Headers */,
+				D78BA9671F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.h in Headers */,
+				D78BA95B1F57113800E0C44F /* ZJDCIndexHeadMenuModel.h in Headers */,
+				D78BA95F1F57113800E0C44F /* ZJDCIndexRescueModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E03F88128D80943D848EA4D8CB2B26E /* Pods-ZJDCIndexControllerModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09597E490DDD2BF35CBE058CCA0E1C73 /* Build configuration list for PBXNativeTarget "Pods-ZJDCIndexControllerModule_Example" */;
+			buildPhases = (
+				E80B0E8220308E0588BB786F2DE45008 /* Sources */,
+				2D93ADA84CDB64B8C1B3D94364F7B72F /* Frameworks */,
+				F6E2709C45313AA0C53721EF895B2A41 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41724FDFA39D8833734FC2550DC76442 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZJDCIndexControllerModule_Example";
+			productName = "Pods-ZJDCIndexControllerModule_Example";
+			productReference = 601B0984BE125AB99888F752F8340DC0 /* Pods_ZJDCIndexControllerModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24B12539E41E889D8555384E7F401179 /* Pods-ZJDCIndexControllerModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15B618F2E9D33698D917FB214FFAAC6 /* Build configuration list for PBXNativeTarget "Pods-ZJDCIndexControllerModule_Tests" */;
+			buildPhases = (
+				D947D3EFFE1395D9922F15850CDFC22D /* Sources */,
+				DBB9654863D364963D4937C1B75B0FDE /* Frameworks */,
+				D8964A1B496C611A3EFFC3A1E9187280 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZJDCIndexControllerModule_Tests";
+			productName = "Pods-ZJDCIndexControllerModule_Tests";
+			productReference = 4AA4A74A0DDD4998958EF646456213D2 /* Pods_ZJDCIndexControllerModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0EBF70792CB46BEE9D4C5B3A03624FA /* ZJDCIndexControllerModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83518DB79C613628A3D80D151BAF2162 /* Build configuration list for PBXNativeTarget "ZJDCIndexControllerModule" */;
+			buildPhases = (
+				DAA50498168BF9F57CEB3A6C3EDAD209 /* Sources */,
+				517C74D3CD6E5B5B479BC5ADE83C2EE6 /* Frameworks */,
+				BD4E0FC8AC763193FEBDB1A12B50D7D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJDCIndexControllerModule;
+			productName = ZJDCIndexControllerModule;
+			productReference = FF7F65F955B51137823C501F2B4D6DBB /* ZJDCIndexControllerModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BF4300ABF262041A49B8D9D1FAE09419 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E03F88128D80943D848EA4D8CB2B26E /* Pods-ZJDCIndexControllerModule_Example */,
+				24B12539E41E889D8555384E7F401179 /* Pods-ZJDCIndexControllerModule_Tests */,
+				E0EBF70792CB46BEE9D4C5B3A03624FA /* ZJDCIndexControllerModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D947D3EFFE1395D9922F15850CDFC22D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50D9C3BF5A58EE43E778A5133280740 /* Pods-ZJDCIndexControllerModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA50498168BF9F57CEB3A6C3EDAD209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84794FC24F19447839ADC706A32C882D /* ZJDCIndexControllerModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80B0E8220308E0588BB786F2DE45008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78BA95E1F57113800E0C44F /* ZJDCIndexMemberBenefitsModel.m in Sources */,
+				D78BA9641F57113800E0C44F /* ZJDCIndexAutoInsuranceTableViewCell.m in Sources */,
+				D78BA9661F57113800E0C44F /* ZJDCIndexDiscountTableViewCell.m in Sources */,
+				D78BA95C1F57113800E0C44F /* ZJDCIndexHeadMenuModel.m in Sources */,
+				D78BA95A1F57113800E0C44F /* ZJDCIndexExtendedWarrantyModel.m in Sources */,
+				D78BA9701F57113800E0C44F /* ZJDCIndexTableView.m in Sources */,
+				D78BA96A1F57113800E0C44F /* ZJDCIndexHeadMenuTableViewCell.m in Sources */,
+				D78BA9581F57113800E0C44F /* ZJDCIndexDiscountModel.m in Sources */,
+				D78BA9601F57113800E0C44F /* ZJDCIndexRescueModel.m in Sources */,
+				D78BA9621F57113800E0C44F /* ZJDCIndexAppreciationLotteryTableViewCell.m in Sources */,
+				D78BA96C1F57113800E0C44F /* ZJDCIndexMemberBenefitsTableViewCell.m in Sources */,
+				D78BA9721F57113800E0C44F /* ZJDCIndexViewController.m in Sources */,
+				D78BA9561F57113800E0C44F /* ZJDCIndexAutoInsuranceModel.m in Sources */,
+				D78BA9541F57113800E0C44F /* ZJDCIndexAppreciationLotteryModel.m in Sources */,
+				D78BA9681F57113800E0C44F /* ZJDCIndexExtendedWarrantyTableViewCell.m in Sources */,
+				9F91A5B8E9C10685D46CA73FB129850F /* Pods-ZJDCIndexControllerModule_Example-dummy.m in Sources */,
+				D78BA96E1F57113800E0C44F /* ZJDCIndexRescueTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41724FDFA39D8833734FC2550DC76442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZJDCIndexControllerModule;
+			target = E0EBF70792CB46BEE9D4C5B3A03624FA /* ZJDCIndexControllerModule */;
+			targetProxy = 7041414134E1B1F26A317BE17AA98C31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18DB77CBE257CCF8F8678AEAA9EFBCC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639B0E2D6B9E16D1C38DBA9AD837C7AC /* Pods-ZJDCIndexControllerModule_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Example/Pods-ZJDCIndexControllerModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZJDCIndexControllerModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B3F474BA2CD3384595A52D67A9681EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E71269DE406AB3675BB31120A71A632 /* ZJDCIndexControllerModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJDCIndexControllerModule/ZJDCIndexControllerModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJDCIndexControllerModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJDCIndexControllerModule/ZJDCIndexControllerModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZJDCIndexControllerModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A215C050DD118FC31691C9DAE1AB843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BAACFE16B154C1EBCFC446D0BB1FBC1 /* Pods-ZJDCIndexControllerModule_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Tests/Pods-ZJDCIndexControllerModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZJDCIndexControllerModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6899ED1F4860B014351ABCCF5BCB928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E12B232C46A24116B7B1BA0B16979AC /* Pods-ZJDCIndexControllerModule_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Example/Pods-ZJDCIndexControllerModule_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZJDCIndexControllerModule_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3DB31FE7C42C4FBCD3231586079A702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1C2A0C2775A278BC72733ACFBF1A05 /* Pods-ZJDCIndexControllerModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZJDCIndexControllerModule_Tests/Pods-ZJDCIndexControllerModule_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZJDCIndexControllerModule_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F65CD86925F8869861D0DFA4C2519DBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E71269DE406AB3675BB31120A71A632 /* ZJDCIndexControllerModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZJDCIndexControllerModule/ZJDCIndexControllerModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZJDCIndexControllerModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZJDCIndexControllerModule/ZJDCIndexControllerModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZJDCIndexControllerModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09597E490DDD2BF35CBE058CCA0E1C73 /* Build configuration list for PBXNativeTarget "Pods-ZJDCIndexControllerModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18DB77CBE257CCF8F8678AEAA9EFBCC8 /* Debug */,
+				C6899ED1F4860B014351ABCCF5BCB928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83518DB79C613628A3D80D151BAF2162 /* Build configuration list for PBXNativeTarget "ZJDCIndexControllerModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B3F474BA2CD3384595A52D67A9681EF /* Debug */,
+				F65CD86925F8869861D0DFA4C2519DBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15B618F2E9D33698D917FB214FFAAC6 /* Build configuration list for PBXNativeTarget "Pods-ZJDCIndexControllerModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DB31FE7C42C4FBCD3231586079A702 /* Debug */,
+				A215C050DD118FC31691C9DAE1AB843C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
