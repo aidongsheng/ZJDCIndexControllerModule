@@ -7,7 +7,7 @@
 //
 
 #import "adsViewController.h"
-
+#import <adsCoreKitHeader.h>
 @interface adsViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = BUTTON_TITLE_COLOR(122, 211, 222, 0.5);
 }
 
 - (void)didReceiveMemoryWarning

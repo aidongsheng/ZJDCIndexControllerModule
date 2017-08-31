@@ -1,6 +1,6 @@
 {
   "name": "ZJDCIndexControllerModule",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "51车生活项目首页",
   "description": "TODO: 51车生活项目首页",
   "homepage": "https://github.com/aidongsheng/ZJDCIndexControllerModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/aidongsheng/ZJDCIndexControllerModule.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

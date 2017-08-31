@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'ZJDCIndexControllerModule'
-s.version          = '0.0.2'
+s.version          = '0.0.3'
 s.summary          = '51车生活项目首页'
 
 s.description      = <<-DESC
